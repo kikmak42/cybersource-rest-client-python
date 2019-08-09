@@ -181,7 +181,7 @@ class TssV2TransactionsGet200ResponseProcessorInformation(object):
     def response_id(self):
         """
         Gets the response_id of this TssV2TransactionsGet200ResponseProcessorInformation.
-        The description for this field is not available.
+        Response ID sent from the processor. 
 
         :return: The response_id of this TssV2TransactionsGet200ResponseProcessorInformation.
         :rtype: str
@@ -192,7 +192,7 @@ class TssV2TransactionsGet200ResponseProcessorInformation(object):
     def response_id(self, response_id):
         """
         Sets the response_id of this TssV2TransactionsGet200ResponseProcessorInformation.
-        The description for this field is not available.
+        Response ID sent from the processor. 
 
         :param response_id: The response_id of this TssV2TransactionsGet200ResponseProcessorInformation.
         :type: str

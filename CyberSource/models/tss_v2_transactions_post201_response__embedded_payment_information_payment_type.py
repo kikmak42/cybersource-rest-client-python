@@ -31,59 +31,58 @@ class TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType(obje
                             and the value is json key in definition.
     """
     swagger_types = {
-        'type': 'str',
-        'method': 'str'
+        'name': 'str',
+        'method': 'TssV2TransactionsGet200ResponsePaymentInformationPaymentTypeMethod'
     }
 
     attribute_map = {
-        'type': 'type',
+        'name': 'name',
         'method': 'method'
     }
 
-    def __init__(self, type=None, method=None):
+    def __init__(self, name=None, method=None):
         """
         TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType - a model defined in Swagger
         """
 
-        self._type = None
+        self._name = None
         self._method = None
 
-        if type is not None:
-          self.type = type
+        if name is not None:
+          self.name = name
         if method is not None:
           self.method = method
 
     @property
-    def type(self):
+    def name(self):
         """
-        Gets the type of this TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType.
-        The type of payment method. This is required for non-credit card payment.  Possible values:  - BANK_TRANSFER  - CARD (Default)  - EWALLET  - DIGITAL  - DIRECT_DEBIT  - INVOICE  - PUSH_PAYMENT  - CARRIER_BILLING  - CASH  - CHECK  - CRYPTOGRAPHIC  Please contact CyberSource Customer Support to enable the payment method of your choice and the value you should send in your payment request for this field. 
+        Gets the name of this TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType.
+        A Payment Type is an agreed means for a payee to receive legal tender from a payer. The way one pays for a commercial financial transaction. Examples: Card, Bank Transfer, Digital, Direct Debit. 
 
-        :return: The type of this TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType.
+        :return: The name of this TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType.
         :rtype: str
         """
-        return self._type
+        return self._name
 
-    @type.setter
-    def type(self, type):
+    @name.setter
+    def name(self, name):
         """
-        Sets the type of this TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType.
-        The type of payment method. This is required for non-credit card payment.  Possible values:  - BANK_TRANSFER  - CARD (Default)  - EWALLET  - DIGITAL  - DIRECT_DEBIT  - INVOICE  - PUSH_PAYMENT  - CARRIER_BILLING  - CASH  - CHECK  - CRYPTOGRAPHIC  Please contact CyberSource Customer Support to enable the payment method of your choice and the value you should send in your payment request for this field. 
+        Sets the name of this TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType.
+        A Payment Type is an agreed means for a payee to receive legal tender from a payer. The way one pays for a commercial financial transaction. Examples: Card, Bank Transfer, Digital, Direct Debit. 
 
-        :param type: The type of this TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType.
+        :param name: The name of this TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType.
         :type: str
         """
 
-        self._type = type
+        self._name = name
 
     @property
     def method(self):
         """
         Gets the method of this TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType.
-        This is an optional field.  Please contact CyberSource Customer Support to enable the payment method of your choice and the value you should send in your payment request for this field. 
 
         :return: The method of this TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType.
-        :rtype: str
+        :rtype: TssV2TransactionsGet200ResponsePaymentInformationPaymentTypeMethod
         """
         return self._method
 
@@ -91,10 +90,9 @@ class TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType(obje
     def method(self, method):
         """
         Sets the method of this TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType.
-        This is an optional field.  Please contact CyberSource Customer Support to enable the payment method of your choice and the value you should send in your payment request for this field. 
 
         :param method: The method of this TssV2TransactionsPost201ResponseEmbeddedPaymentInformationPaymentType.
-        :type: str
+        :type: TssV2TransactionsGet200ResponsePaymentInformationPaymentTypeMethod
         """
 
         self._method = method

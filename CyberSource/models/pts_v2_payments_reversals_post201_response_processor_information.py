@@ -152,7 +152,7 @@ class PtsV2PaymentsReversalsPost201ResponseProcessorInformation(object):
     def forwarded_acquirer_code(self):
         """
         Gets the forwarded_acquirer_code of this PtsV2PaymentsReversalsPost201ResponseProcessorInformation.
-        Name of the Japanese acquirer that processed the transaction. Returned only for CCS (CAFIS) and JCN Gateway. Please contact the CyberSource Japan Support Group for more information. 
+        Name of the Japanese acquirer that processed the transaction. Returned only for JCN Gateway. Please contact the CyberSource Japan Support Group for more information. 
 
         :return: The forwarded_acquirer_code of this PtsV2PaymentsReversalsPost201ResponseProcessorInformation.
         :rtype: str
@@ -163,7 +163,7 @@ class PtsV2PaymentsReversalsPost201ResponseProcessorInformation(object):
     def forwarded_acquirer_code(self, forwarded_acquirer_code):
         """
         Sets the forwarded_acquirer_code of this PtsV2PaymentsReversalsPost201ResponseProcessorInformation.
-        Name of the Japanese acquirer that processed the transaction. Returned only for CCS (CAFIS) and JCN Gateway. Please contact the CyberSource Japan Support Group for more information. 
+        Name of the Japanese acquirer that processed the transaction. Returned only for JCN Gateway. Please contact the CyberSource Japan Support Group for more information. 
 
         :param forwarded_acquirer_code: The forwarded_acquirer_code of this PtsV2PaymentsReversalsPost201ResponseProcessorInformation.
         :type: str
